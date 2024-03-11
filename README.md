@@ -3,7 +3,7 @@ Module 21 Challenge
 
 ## Overview of the Analysis
 
-* Create a predictive model to evaluate the likelihood of success of a funding application
+* Create a predictive model to evaluate the likelihood of success of a funding application for funds from a charity.
 * The model uses details about the organization (affiliation, governmental industry classification, organization type, and income) along with details about the proposal (use case, amount requested, and special considerations)
 * The training and testing data also included the ultimate outcome for each request.
 * Categorical data was converted to boolean columns, and the data was scaled by the StandardScaler. It was then split into training and testing data.
@@ -46,4 +46,5 @@ I tested several different variations on parameters, and none of them made enoug
  * removing the amount from the inputs
  * reducing the number of Application Type and Classification by changing the threshold for what was considered "other"
  * increasing the number of epochs
+
 I am convinced that 75% accuracy is not achievable with the data available.
